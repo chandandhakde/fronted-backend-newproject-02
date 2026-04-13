@@ -6,7 +6,7 @@ app = Flask(__name__)
 # ✅ DB Connection
 def get_db():
     return psycopg2.connect(
-        host="13.126.202.185",   # 🔥 replace this
+        host="13.204.226.27",   # 🔥 replace this
         database="image_db",
         user="myuser",
         password="mypassword",
