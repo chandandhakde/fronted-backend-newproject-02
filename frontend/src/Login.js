@@ -7,7 +7,7 @@ function Login() {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const login = async () => {
-    const res = await fetch("http://<ALB-DNS>/login", {
+    const res = await fetch("http://<ALB-DNS>:5000/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password })
