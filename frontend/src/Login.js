@@ -7,7 +7,7 @@ function Login() {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const login = async () => {
-    const res = await fetch("alb-2047468391.ap-south-1.elb.amazonaws.com:5000/login", {
+    const res = await fetch("alb-1235489434.ap-south-1.elb.amazonaws.com:5000/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password })
