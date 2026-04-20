@@ -8,8 +8,8 @@ def get_db():
     return psycopg2.connect(
         host="13.204.226.27",   # 🔥 replace this
         database="image_db",
-        user="myuser",
-        password="mypassword",
+        user="admin",
+        password="1234",
         port=5432
     )
 
